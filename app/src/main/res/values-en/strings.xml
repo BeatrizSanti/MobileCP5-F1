@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula 1 My App</string>
+    <string name="activity_description">Build your team!!</string>
+    <string name="equip_name">Equip Name</string>
+    <string name="pilot_1_name">Pilot 1 Name</string>
+    <string name="pilot_1_number">Pilot 1 Number</string>
+    <string name="pilot_2_name">Pilot 2 Name</string>
+    <string name="pilot_2_number">Pilot 2 Number</string>
+    <string name="save_team">Save Team</string>
+
+</resources>

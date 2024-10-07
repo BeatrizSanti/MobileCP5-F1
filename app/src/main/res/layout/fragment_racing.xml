@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+
+
+    <ImageView
+        android:id="@+id/photo_verstappen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="Foto do piloto Max Verstappen"
+        android:src="@drawable/verstappen"
+        android:layout_gravity="start|top" />
+
+    <TextView
+        android:id="@+id/name_verstappen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:text="Max VERSTAPPEN"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top" />
+
+    <TextView
+        android:id="@+id/points_verstappen"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:text="350 PTS"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/team_verstappen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="28dp"
+        android:text="Red Bull Racing"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="16sp"
+        android:layout_gravity="start|top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name_norris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Lando NORRIS"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top" />
+
+    <TextView
+        android:id="@+id/team_norris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="McLaren"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="16sp"
+        android:layout_gravity="start|top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="96dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/points_norris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="331 PTS"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name_hamilton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="Lewis HAMILTON"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top" />
+
+    <TextView
+        android:id="@+id/team_hamilton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Mercedes"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="16sp"
+        android:layout_gravity="start|top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="172dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/points_hamilton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250 PTS"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name_leclerc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="Charles LECLERC"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top" />
+
+    <TextView
+        android:id="@+id/team_leclerc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:text="Ferrari"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="16sp"
+        android:layout_gravity="start|top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="248dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/points_leclerc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200 PTS"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

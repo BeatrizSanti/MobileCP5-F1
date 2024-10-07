@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_layout" type="id" />
+    <item name="tv_nome_equipe" type="id" />
+    <item name="tv_nome_piloto1" type="id" />
+    <item name="tv_nome_piloto2" type="id" />
+    <item name="btn_delete_equipe" type="id" />
+    <item name="tv_piloto1" type="id" />
+    <item name="tv_piloto2" type="id" />
+    <item name="list_view_equipes" type="id" />
+    <item name="et_nome_numeroPiloto1" type="id" />
+    <item name="et_nome_numeroPiloto2" type="id" />
+</resources>

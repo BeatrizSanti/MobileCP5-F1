@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meu App da Formula 1</string>
+    <string name="activity_description">Crie sua equipe!!</string>
+    <string name="equip_name">Nome da Equipe</string>
+    <string name="pilot_1_name">Nome do piloto 1</string>
+    <string name="pilot_1_number">Numero do piloto 1</string>
+    <string name="pilot_2_name">Nome do piloto 2</string>
+    <string name="pilot_2_number">Numero do piloto 2</string>
+    <string name="save_team">Salvar Equipe</string>
+</resources>
